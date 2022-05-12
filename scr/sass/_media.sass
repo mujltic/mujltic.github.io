@@ -1,0 +1,317 @@
+@media  (max-width: 1200px)
+    .menu
+      &_item
+        padding-right: 23px
+      &_link
+         font-size: 13px
+    .subheader
+        &_phone
+            font-size: 18px
+    .promo
+        .header_text
+            font-size: 50px
+    .mobile
+        &_item
+            width: 300px
+    footer
+        .link
+            .social_link
+                a
+                    font-size: 13px
+            .social_sublink
+                a
+                    font-size: 10px
+@media  (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 10px
+        &_link
+           font-size: 10px
+    .subheader
+        &_logo
+            img 
+                width: 100%
+        &_text
+            font-size: 11px
+        &_phone
+            font-size: 18px
+        &_btn
+            width: 150px
+            height: 47px
+    .promo
+        .header_text
+            font-size: 40px    
+        .subheader_text
+            font-size: 35px        
+    .start
+        &_item
+            flex-direction: column
+            align-items: center         
+        &_descr
+            margin-top: 20px
+            width: 300px
+    .app
+        img
+            width: 200px  
+    footer
+        .link
+            .social_link
+                a
+                    font-size: 12px
+            .social_sublink
+                a
+                    font-size: 8px        
+                  
+@media  (max-width: 767px)
+    .menu
+        position: fixed
+        top: 0
+        left: -100%
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0,0.8)
+        transition: 0.7s all
+        &_active
+            top: 0
+            left: 0
+        &_item
+            border: none
+            margin-top: 15px 0
+        &_link
+            font-size: 15px
+            text-decoration: none
+            margin-top: 15px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 25px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            margin-bottom: 2px
+            background-color: #fff
+            transition: 0.6s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none  
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            display: block
+            margin-top: 11px
+            font-size: 12px
+            font-weight: 400
+            text-transform: uppercase
+            color: #ffffff
+            text-align: center
+        &_btn
+            display: block
+            width: 116px
+            height: 28px
+            background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%)
+            border: 0px solid rgba(0,0,0,0.06)
+            box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.11)
+            margin-top: 6px
+            font-family: Roboto
+            font-size: 10px
+            font-weight: 400
+            text-transform: uppercase
+            text-shadow: 1px 1px 0px rgba(0,0,0,0.2)
+            color: #ffffff
+    .start
+        &_item
+            flex-direction: row        
+    .mobile
+        &_item
+            display: block
+            margin: 0 auto
+            margin-top: 19px
+            width: 260px
+            height: 260px
+    .require
+        &_margin
+            margin-top: 0                                       
+    footer
+        .wrapper
+            display: flex
+            flex-direction: column
+        .wrapper > div
+            width: 100% 
+            &:nth-child(1)
+                display: flex
+                justify-content: center
+            &:nth-child(2)   
+                 margin-top: 10px
+            &:nth-child(3)
+                justify-content: center
+                margin-top: 10px
+        .app
+            img
+                width: 100%         
+        .social
+            margin: 0 
+            &_item
+                &_link
+                                      
+@media  ( max-width: 575px)
+    .menu
+        width: 80%
+        &_item
+            width: 100%
+            text-align: center
+        &_link
+            display: block
+            padding: 5px 0
+            &:hover
+                transform: none
+    .title
+        font-size: 16px
+        font-weight: 700
+        text-transform: uppercase
+        margin-top: 15px
+    nav
+        min-height: 30px
+    .subheader
+        margin-top: 30px
+        min-height: 60px
+        &_logo
+            margin-top: 17px
+        &_phone
+            margin-top: 9px
+        &_btn
+            font-size: 10px
+            font-weight: 400
+            text-transform: uppercase
+            text-shadow: 1px 1px 0px rgba(0,0,0,0.2)
+            color: #ffffff
+            margin-top: 4px
+            height: 22px
+            &:hover
+                background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%)
+                transform: translateX(0px)
+                color: #fff
+    .promo
+        padding: 141px 0 32px 0
+        min-height: 400px
+        .header_text
+                font-size: 30px
+                padding: 0 15px
+        .subheader_text
+            font-size: 20px
+            color: #ffffff
+            margin-top: 20px
+        &_text
+            display: none
+        .promo_btn
+            width: 216px
+            height: 56px
+            background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%)
+            border: 0px solid rgba(0,0,0,0.06)
+            box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.11)
+            &:hover
+                background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%)
+                transform: translateX(0px)
+                color: #fff
+    .start
+        padding: 22px 0 50px 0
+        &_item
+            flex-direction: column
+        &_round
+            margin: 0
+        &_title
+            text-align: center
+        &_subtitle
+            text-align: center
+    .mobile
+        padding: 22px 0 43px 0
+        .subtitle
+            font-size: 14px
+            font-weight: 400
+            color: #222222
+            margin: 11px 0 27px 0
+        &_item
+            width: 280px
+            height: 254px
+            opacity: 0.9
+            &_text
+                font-size: 18px
+                font-weight: 400
+                text-transform: uppercase
+                color: #ffffff
+    .choice
+        padding: 25px 0 33px 0
+        background: url('../img/choice_bg_mobile.jpg') center (center/cover) no-repeat   
+        &_text
+            color: #fff
+
+    footer
+        min-height: 245px
+        .footer_devider
+            width: 253px
+            height: 4px
+            background-color: #1fbad6
+            margin-top: 25px
+        .wrapper
+            margin-top: 22px
+        .wrapper > div
+            &:nth-child(1)
+                order: 2
+                margin-top: 20px
+            &:nth-child(2)
+                order: 1
+                margin-top: 0
+            &:nth-child(3)
+                order: 3
+                margin-top: 20px
+        .link
+            .social_sublink
+                flex-wrap: wrap
+                justify-content: space-between
+                margin-top: 10px
+                a
+                    font-size: 11px
+                    margin: 0 11px
+                    line-height: 23px        
+    .require
+        min-height: 1000px
+        padding: 25px 0
+        &_title
+            margin-top: 23px
+            font-size: 16px
+        &_list
+            font-size: 13px
+        .warning
+            .require_title
+                font-size: 16px
+    .world
+        min-height: 360px 
+        padding: 25px 0 30px 0
+        .title
+            font-size: 16px
+        &_subtitle
+            font-size: 14px  
+        &_link
+            width: 100%                
+
+
+                                    
+
+
+
